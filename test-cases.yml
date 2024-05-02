@@ -1,0 +1,25 @@
+- summary: |
+    Проверка возможности прохождения игры без регистрации
+  requirement: |
+    При нажатии на кнопку "Try simple battle" открывается поле для игры
+  prerequisites: |
+    nodata
+  test-data: |
+    nodata
+  steps:
+    - Нажать на кнопку "Try simple battle"
+  expected-result: |
+    Пользователь попадает на поле для игры
+
+- summary: |
+    Проверка возможности регистрации при помощи GitHub
+  requirement: |
+    При нажатии на кнопку "Sing in with GitHub" происходит регистрация пользователя
+  prerequisites: |
+    Нажать на кнопку "Sing up"
+  test-data: |
+    аккаунт на GitHub
+  steps:
+    - Нажать на кнопку "Sing in with GitHub"
+  expected-result: |
+    Происходит регистрация пользователя

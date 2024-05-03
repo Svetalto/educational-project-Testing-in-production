@@ -3,7 +3,7 @@
   requirement: |
     При нажатии на кнопку "Try simple battle" открывается поле для игры
   prerequisites: |
-    nodata
+    Пользователь не авторизован
   test-data: |
     nodata
   steps:
@@ -16,7 +16,8 @@
   requirement: |
     При нажатии на кнопку "Sing in with GitHub" происходит регистрация пользователя
   prerequisites: |
-    Нажать на кнопку "Sing up"
+    - Быть не авторизованным пользователем
+    - Нажать на кнопку "Sing up"
   test-data: |
     аккаунт на GitHub
   steps:

@@ -160,7 +160,6 @@
   test-data: |
     -  const solution = (width, length) => {
   return width * length; }; 
-
   steps:
     - Ввести в поле для игры тестовые данные
     - Перед проверкой изменить "*" на "-"
@@ -183,7 +182,6 @@
   test-data: |
     - const solution = (width, length) => {
   return width * length; };
-
   steps:
     - Ввести в поле для игры тестовые данные
     - Нажать на кнопку "Run"

@@ -158,8 +158,7 @@
     - Выбрать задачу "rect_area"
     - Нажать на кнопку "Create battle"
   test-data: |
-    -  const solution = (width, length) => {
-  return width * length; }; 
+    -  const solution = (width, length) => { return width * length; }; 
   steps:
     - Ввести в поле для игры тестовые данные
     - Перед проверкой изменить "*" на "-"
@@ -180,8 +179,7 @@
     - Выбрать задачу "rect_area"
     - Нажать на кнопку "Create battle"
   test-data: |
-    - const solution = (width, length) => {
-  return width * length; };
+    - const solution = (width, length) => { return width * length; };
   steps:
     - Ввести в поле для игры тестовые данные
     - Нажать на кнопку "Run"

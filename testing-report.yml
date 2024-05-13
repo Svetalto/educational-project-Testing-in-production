@@ -2,11 +2,11 @@
     Проверка успешной регистрации 
   status: pass
 
-  - summary: |
+- summary: |
     Проверка авторизации через Discord
   status: pass
 
-  - summary: |
+- summary: |
     Проверка авторизации по email
   status: pass
 
